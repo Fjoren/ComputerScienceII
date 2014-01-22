@@ -10,6 +10,6 @@ class Stock {
 	}
 	
 	double getChangePercent () {
-		return (currentPrice-previousClosingPrice)/previousClosingPrice;
+		return ((currentPrice-previousClosingPrice)/previousClosingPrice)*100;
 	}
 }
