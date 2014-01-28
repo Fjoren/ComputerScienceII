@@ -19,6 +19,13 @@ class Account {
         this.annualInterestRate = 0;
         this.dateCreated = new Date();
     }
+    
+    Account (int id, double balance, double annualInterestRate) {
+        this.id = id;
+        this.balance = balance;
+        this.annualInterestRate = annualInterestRate;
+        this.dateCreated = new Date();
+    }
 
     public int getId () {
         return this.id;
@@ -64,6 +71,12 @@ class Account {
     public double deposit (double amount) {
         balance += amount;
         return balance;
+    }
+
+    public String toString () {
+        String output;
+        output = String.format("ID: %d\nBalance: %.2f\nAnnual Interest Rate: %f\nDate Created: " + dateCreated.toString(), id,balance,annualInterestRate);
+        return output;
     }
 
 }
