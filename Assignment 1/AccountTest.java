@@ -8,6 +8,5 @@ class AccountTest {
         newAccount.deposit(3000);
         System.out.printf("Balance: %.2f" + "\nMonthly Interest: %.2f" + "\nDate Created: " + newAccount.getDateCreated().toString() + "\n", newAccount.getBalance(), newAccount.getMonthlyInterest());
         System.out.println(newAccount);
-        System.out.println(newAccount);
     }
 }

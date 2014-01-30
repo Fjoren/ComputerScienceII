@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="12.2">
+  <zoom_level>10</zoom_level>
+  <element>
+    <type>com.umlet.element.Class</type>
+    <coordinates>
+      <x>10</x>
+      <y>10</y>
+      <w>290</w>
+      <h>160</h>
+    </coordinates>
+    <panel_attributes>::Stock
+--
+~symbol: String
+~name: String
+~previousClosingPrice: double
+~currentPrice: double
+--
+~Stock(String symbol, String name): ctor
+~getChangePercent(): double
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+</diagram>

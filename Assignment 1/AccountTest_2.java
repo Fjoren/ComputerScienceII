@@ -1,6 +1,6 @@
 import java.util.Date;
 
-class AccountTest {
+class AccountTest2 {
     public static void main (String[] args) {
         Account newAccount = new Account(1122,20000);
         newAccount.setAnnualInterestRate(4.5);

@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="12.2">
+  <zoom_level>3</zoom_level>
+  <element>
+    <type>com.umlet.element.Class</type>
+    <coordinates>
+      <x>210</x>
+      <y>171</y>
+      <w>276</w>
+      <h>54</h>
+    </coordinates>
+    <panel_attributes>::Employee
+--
+-office: String
+-salary: double
+-dateHired: Date
+--
+~Employee(): ctor
+~Employee(String name, String address, String phoneNumber, String emailAddress): ctor
+~Employee(String name, String address, String phoneNumber, String emailAddress, String office, double salary): ctor
+~Employee(String name, String address, String phoneNumber, String emailAddress, String office, double salary, Date dateHired): ctor
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.Class</type>
+    <coordinates>
+      <x>546</x>
+      <y>90</y>
+      <w>180</w>
+      <h>54</h>
+    </coordinates>
+    <panel_attributes>::Person
+--
+#name: String
+-address: String
+-phoneNumber: String
+-emailAddress: String
+--
+~Person(): ctor
+~Person(String name, String address, String phoneNumber, String emailAddress): ctor
++toString(): String
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.Class</type>
+    <coordinates>
+      <x>0</x>
+      <y>276</y>
+      <w>336</w>
+      <h>42</h>
+    </coordinates>
+    <panel_attributes>::Faculty
+--
+-officeHours: String
+-rank: String
+--
+~Faculty(): ctor
+~Faculty(String name, String address, String phoneNumber, String emailAddress, String office, double salary, String officeHours, String rank): ctor
+~Faculty(String name, String address, String phoneNumber, String emailAddress, String office, double salary, String officeHours, String rank, Date dateHired): ctor
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.Class</type>
+    <coordinates>
+      <x>606</x>
+      <y>213</y>
+      <w>228</w>
+      <h>33</h>
+    </coordinates>
+    <panel_attributes>::Student
+--
+-CLASS_STATUS: String
+--
+~Student(): ctor
+~Student(String name, String address, String phoneNumber, String emailAddress, String CLASS_STATUS): ctor
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.Class</type>
+    <coordinates>
+      <x>342</x>
+      <y>279</y>
+      <w>258</w>
+      <h>27</h>
+    </coordinates>
+    <panel_attributes>::Staff
+--
+-title: String
+--
+~Staff(String name, String address, String phoneNumber, String emailAddress, String office, double salary, String title): ctor
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>678</x>
+      <y>141</y>
+      <w>44</w>
+      <h>71</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;.
+&lt;&lt;extends&gt;&gt;</panel_attributes>
+    <additional_attributes>24;9;24;66</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>267</x>
+      <y>219</y>
+      <w>44</w>
+      <h>59</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;.
+&lt;&lt;extends&gt;&gt;</panel_attributes>
+    <additional_attributes>24;9;24;54</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>357</x>
+      <y>219</y>
+      <w>44</w>
+      <h>65</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;.
+&lt;&lt;extends&gt;&gt;</panel_attributes>
+    <additional_attributes>24;9;24;60</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>480</x>
+      <y>132</y>
+      <w>68</w>
+      <h>44</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;.
+&lt;&lt;extends&gt;&gt;</panel_attributes>
+    <additional_attributes>63;9;9;39</additional_attributes>
+  </element>
+</diagram>

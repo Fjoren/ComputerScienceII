@@ -1,6 +1,6 @@
 import java.util.Date;
 
-class AccountTest {
+class AccountTest1 {
     public static void main (String[] args) {
         Account newAccount = new Account();
         Date copy = newAccount.getDateCreated();
